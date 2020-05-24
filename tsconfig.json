@@ -1,0 +1,13 @@
+{
+  "extends": "./node_modules/@hesto2/config/tsconfig.json",
+  "include": ["src/**/*", "src/*"],
+  "compilerOptions": {
+    "target": "es2016",
+    "outDir": "./dist",
+    "typeRoots": ["@types", "node_modules/@types"],
+    "baseUrl": ".",
+    "paths": {
+      "express": ["@types/*"]
+    }
+  }
+}
