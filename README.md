@@ -1,3 +1,10 @@
+# About this project
+
+This project is something I use to abstract the logic of sending notifications
+away from miscellaneous other projects. The currrent implementation is for
+notifying via slack. It also is the hub for handling miscellaneous webhook
+requests and forwarding those to the appropriate project.
+
 # Message format:
 
 ```
